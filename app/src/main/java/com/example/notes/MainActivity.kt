@@ -40,5 +40,6 @@ class MainActivity : AppCompatActivity(), INotesAdapter {
         }else{
             input.error = "Empty"
         }
+        input.text.clear()
     }
 }
